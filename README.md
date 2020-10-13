@@ -7,8 +7,12 @@ Desktop app with database access
 Go to ers folder `cd ers` , 
 Run the react app `npm start`
 
-## install electron as devDependency
+## Install electron as devDependency
 `npm install electron --save-dev`
+
+## Install SQLite3
+`npm install sqlite3`
+
 
 
 
