@@ -5,7 +5,9 @@ const isDev = require('electron-is-dev');
 
 var mainWindow;
 
-function createWindown(){
+// setup a new window to create itself whereever we need
+
+function createWindow(){
     mainWindow = new BrowserWindow({
         width:768,
         height:500,
@@ -16,3 +18,7 @@ function createWindown(){
     mainWindow.loadURL(`file://${path.join(__dirname, '../build/index.html')}`);
     mainWindow.on('closed', ()=>mainWindow=null);
 }
+
+// create a new window on start
+
+app.on('ready', createWindow)
