@@ -24,8 +24,10 @@ The app is currntly running the react default app. Need to change this to run el
 Clear the unnecessary contents from the index.html in public folder, but do not delete this part `<div id="root"></div>` . Also change the title in `<title> </title>` of index.html
 
 ## Let's work on electron
-Create a new file `electron.js` in `src` folder
- 
+Create a new file `electron.js` in `src` folder \n
+Then add necessary scripts (see the electron.js file in src folder of this project)
+
+
 
 
 
