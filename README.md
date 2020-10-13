@@ -18,6 +18,12 @@ Run the react app `npm start`
 ## Install other necessary dev tools
 `npm install concurrently electron-is-dev wait-on `
 
+***
+The app is currntly running the react default app. Need to change this to run eletron 
+
+Clear the unnecessary contents from the index.html in public folder, but do not delete this part `<div id="root"></div>` . Also change the title in `<title> </title>` of index.html
+
+
 
 
 
