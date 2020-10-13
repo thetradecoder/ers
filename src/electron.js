@@ -13,4 +13,6 @@ function createWindown(){
             nodeIntegration:true
         }
     });
+    mainWindow.loadURL(`file://${path.join(__dirname, '../build/index.html')}`);
+    mainWindow.on('closed', ()=>mainWindow=null);
 }
