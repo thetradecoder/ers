@@ -8,8 +8,7 @@ Go to ers folder `cd ers` ,
 Run the react app `npm start`
 
 ## Install electron and electron-builder as devDependency
-`npm install electron --save-dev`
-
+`npm install electron --save-dev` <br/>
 `npm install electron-builder --save-dev`
 
 ## Install SQLite3 database
