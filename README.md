@@ -26,6 +26,10 @@ Clear the unnecessary contents from the index.html in public folder, but do not 
 Create a new file `electron.js` in `public` folder  <br/>
 Then add necessary scripts (see the `electron.js` file in `public` folder of this project)
 
+Now add this to the `script` in `package.json` file <br/>
+`"electron:electron ."`
+
+
 
 
 
