@@ -1,7 +1,7 @@
 const electron = require('electron');
 const {app, BrowserWindow} = electron;
 const path = require('path');
-const isDev = require('electron-is-dev');
+// const isDev = require('electron-is-dev');
 
 var mainWindow;
 
@@ -22,3 +22,10 @@ function createWindow(){
 // create a new window on start
 
 app.on('ready', createWindow)
+
+// quit the app when all window is closed
+app.on('window-all-closed', ()=>{
+    if(process.platform !== 'darwin'){
+        app.quit();
+    }
+})
