@@ -10,8 +10,13 @@ Run the react app `npm start`
 ## Install electron as devDependency
 `npm install electron --save-dev`
 
-## Install SQLite3
+## Install SQLite3 database
 `npm install sqlite3`
+
+## Install other necessary dev tools
+`npm install concurrently electron-is-dev wait-on `
+
+
 
 
 
