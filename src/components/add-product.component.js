@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function AddProduct(){
     const [productName, setProductName] =  useState("");
     const [productId, setProductId] = useState("");
+    const [productCategory, setProductCategory] = useState("");
+    const [productSize, setProductSize] = useState("");
 
     return(
         <div>
