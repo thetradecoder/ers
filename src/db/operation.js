@@ -20,7 +20,7 @@ export default function Action(action){
            TOTAL_BUY INTEGER,
            TOTAL_SALES INTEGER,
            STMT_DATE TEXT
-       )`
-       return this.action.run(create_table)
+       )`;
+       return this.action.run(create_table);
    }
 }
