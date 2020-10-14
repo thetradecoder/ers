@@ -27,7 +27,7 @@ Create a new file `electron.js` in `public` folder  <br/>
 Then add necessary scripts (see the `electron.js` file in `public` folder of this project)
 
 Now add this to the `script` in `package.json` file <br/>
-`"electron:electron ."`
+`"electron":"electron"`
 
 
 
