@@ -23,6 +23,12 @@ export default function AddProduct(){
 
     function onSubmitEnlistNewProduct(e){
         e.preventDefault();
+        const clientData = {
+            productName,
+            productId,
+            productCategory,
+            productSize
+        };
     }
 
     return(
