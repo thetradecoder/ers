@@ -3,7 +3,7 @@ export default function Action(action){
 
 
    createTable(){
-       const sql = `CREATE TABLE IF NOT EXIST TradeCoderApp(
+       const create_table = `CREATE TABLE IF NOT EXIST TradeCoderApp(
            ID INTEGER PRIMARY KEY,
            PRODUCT_NAME TEXT,
            PRODUCT_CAT TEXT,
@@ -19,5 +19,6 @@ export default function Action(action){
            TOTAL_SALES INTEGER,
            STMT_DATE TEXT,
        )`
+       return this.action.run(create_table)
    }
 }
