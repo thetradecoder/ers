@@ -1,5 +1,7 @@
-export default function Action(action){
-   this.action = action;
+export default class Action{
+   constructor(action){
+       this.action=action;
+   }
 
 
    createTable(){
