@@ -2,7 +2,7 @@
   "name": "ers",
   "version": "0.1.0",
   "private": true,
-  "main":"index.js",
+  "main":"./public/electron.js",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "electron": "electron"
+    "electron": "electron ."
   },
   "eslintConfig": {
     "extends": "react-app"
