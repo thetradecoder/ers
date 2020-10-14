@@ -29,10 +29,10 @@ export default function AddProduct(){
         <div>
             <form onSubmit={onSubmitEnlistNewProduct}>
                 <h2>Add a Product Name</h2>
-                <input type="text" placeholder="product id" onChange={onChangeProductName}/>
-                <input type="text" placeholder="product name" onChange={onChangeProductId}/>
-                <input type="text" placeholder="product category" onChange={onChangeProductCategory}/>
-                <input type="text" placeholder="product size" onChange={onChangeProductSize}/>
+                <input type="text" placeholder="product id" onChange={onChangeProductName} className="form-control"/>
+                <input type="text" placeholder="product name" onChange={onChangeProductId} className="form-control"/>
+                <input type="text" placeholder="product category" onChange={onChangeProductCategory} className="form-control"/>
+                <input type="text" placeholder="product size" onChange={onChangeProductSize} className="form-control"/>
                 <button type="submit" className="btn btn-primary">Submit</button>
             </form>
         </div>
