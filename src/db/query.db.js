@@ -1,4 +1,4 @@
-export default class Action{
+export default class Query{
    constructor(action){
        this.action=action;
    }
