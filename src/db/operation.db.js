@@ -2,7 +2,7 @@ const sqlite3 = window.require('sqlite3');
 const Promise = window.require('bluebird');
 
 
-class DbAccess{
+export default class DbAccess{
     constructor(db){
         this.db = new sqlite3.Database(db);
     }
@@ -23,6 +23,17 @@ class DbAccess{
             })
         })
     }
+
+    all(sql, params=[]){
+        return new Promise((resolve, reject)=>{
+            this.db.all(sql, params, (err)=>{
+                err?reject():resolve();
+            })
+        })
+
+    }
+
+
 
 
 }
