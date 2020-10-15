@@ -15,7 +15,7 @@ Run the react app `npm start`
 `npm install sqlite3`
 
 ## Install other necessary dev tools
-`npm install concurrently electron-is-dev wait-on `
+`npm install concurrently electron-is-dev wait-on bluebird`
 
 ***
 ## Let's work on electron
