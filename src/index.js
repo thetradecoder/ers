@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AddProduct from './components/add-product.component.js';
+import AddProduct from './add-product.component.js';
 
 
 ReactDOM.render(
