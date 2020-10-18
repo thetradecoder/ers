@@ -1,4 +1,4 @@
-export default class Dao{
+export default class Crud{
    constructor(action){
        this.action=action;
    }
