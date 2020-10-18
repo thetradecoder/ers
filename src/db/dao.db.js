@@ -14,26 +14,5 @@ export default class Dao{
             })
         })
 
-    }
-
-    get(sql, params=[]){
-        return new Promise((resolve, reject)=>{
-            this.db.get(sql, params, (err)=>{
-                err?reject():resolve();
-            })
-        })
-    }
-
-    all(sql, params=[]){
-        return new Promise((resolve, reject)=>{
-            this.db.all(sql, params, (err)=>{
-                err?reject():resolve();
-            })
-        })
-
-    }
-
-
-
-
+    }  
 }
