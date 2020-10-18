@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AddProduct from './add-product.component.js';
+import ProductList from './product-list.component.js';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <AddProduct />
+    <ProductList />
   </React.StrictMode>,
   document.getElementById('root')
 );
