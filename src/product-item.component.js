@@ -2,7 +2,6 @@ import React from 'react';
 
 export default function ProductItem(){
 
-
     function createProduct(item){
         return (
         <li>{item}</li>

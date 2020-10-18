@@ -2,7 +2,7 @@ const sqlite3 = window.require('sqlite3');
 const Promise = window.require('bluebird');
 
 
-export default class DbAccess{
+export default class Dao{
     constructor(db){
         this.db = new sqlite3.Database(db);
     }
