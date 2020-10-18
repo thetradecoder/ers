@@ -8,7 +8,7 @@ export default function ProductItem(){
         <li>{item}</li>
         )
     }
-    var productEntry = this.props.entry;
+    var productEntry = this.props.entries;
     var list = productEntry.map(createProduct);
     return(
         <div>
