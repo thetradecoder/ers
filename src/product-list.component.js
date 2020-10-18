@@ -11,9 +11,10 @@ export default function ProductList(){
         this.dao = new Dao('./db.sqlite3');
         this.db = new Crud(this.dao);
         this.db.createTable()
-        .then(()=>console.log('table was created'));
-        .catch(err=>console.log(err))
+        .then(()=>{console.log('table created')})
+        
     }
+    setDatabase();
 
     function onSubmitAddItem(e){
         e.preventDefault();
