@@ -12,7 +12,7 @@ export default function ProductList(){
         this.db = new Crud(this.dao);
         this.db.createTable()
         .then(()=>{console.log('table created')})
-        
+        .catch(err=>console.log(err))        
     }
     setDatabase();
 
