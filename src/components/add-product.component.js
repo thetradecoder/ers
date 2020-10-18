@@ -29,6 +29,7 @@ export default function AddProduct(){
             productCategory,
             productSize
         };
+        console.log(clientData);
     }
 
     return(
@@ -40,6 +41,7 @@ export default function AddProduct(){
                 <input type="text" placeholder="product category" onChange={onChangeProductCategory} className="form-control"/>
                 <input type="text" placeholder="product size" onChange={onChangeProductSize} className="form-control"/>
                 <button type="submit" className="btn btn-primary">Submit</button>
+                
             </form>
         </div>
     );
