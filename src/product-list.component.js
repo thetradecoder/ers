@@ -7,6 +7,14 @@ const Crud = require('./db/crud.db.js');
 export default function ProductList(){
     const [items, setItems] =  useState([]);
 
+    function setDatabase(){
+        this.dao = new Dao('./db.sqlite3');
+        this.db = new Crud(this.dao);
+        this.db.createTable()
+        .then(()=>console.log('table was created'));
+        .catch(err=>console.log(err))
+    }
+
     function onSubmitAddItem(e){
         e.preventDefault();
         setItems([...items, e.target.value]);        
